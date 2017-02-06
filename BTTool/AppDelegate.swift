@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  BTTool
 //
-//  Created by 王子胜 on 2017/2/6.
-//  Copyright © 2017年 王子胜. All rights reserved.
 //
 
 import UIKit
