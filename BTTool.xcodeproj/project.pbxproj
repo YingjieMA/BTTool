@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A16553F51E48929900F0FCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16553F41E48929900F0FCA6 /* AppDelegate.swift */; };
+		A16553F71E48929900F0FCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16553F61E48929900F0FCA6 /* ViewController.swift */; };
+		A16553FA1E48929900F0FCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16553F81E48929900F0FCA6 /* Main.storyboard */; };
+		A16553FC1E48929900F0FCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16553FB1E48929900F0FCA6 /* Assets.xcassets */; };
+		A16553FF1E48929900F0FCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16553FD1E48929900F0FCA6 /* LaunchScreen.storyboard */; };
+		A165540A1E48929900F0FCA6 /* BTToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16554091E48929900F0FCA6 /* BTToolTests.swift */; };
+		A16554151E48929900F0FCA6 /* BTToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16554141E48929900F0FCA6 /* BTToolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A16554061E48929900F0FCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A16553E91E48929800F0FCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16553F01E48929800F0FCA6;
+			remoteInfo = BTTool;
+		};
+		A16554111E48929900F0FCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A16553E91E48929800F0FCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16553F01E48929800F0FCA6;
+			remoteInfo = BTTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A16553F11E48929900F0FCA6 /* BTTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16553F41E48929900F0FCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A16553F61E48929900F0FCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A16553F91E48929900F0FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A16553FB1E48929900F0FCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16553FE1E48929900F0FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A16554001E48929900F0FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16554051E48929900F0FCA6 /* BTToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16554091E48929900F0FCA6 /* BTToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTToolTests.swift; sourceTree = "<group>"; };
+		A165540B1E48929900F0FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16554101E48929900F0FCA6 /* BTToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16554141E48929900F0FCA6 /* BTToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTToolUITests.swift; sourceTree = "<group>"; };
+		A16554161E48929900F0FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A16553EE1E48929800F0FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16554021E48929900F0FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A165540D1E48929900F0FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A16553E81E48929800F0FCA6 = {
+			isa = PBXGroup;
+			children = (
+				A16553F31E48929900F0FCA6 /* BTTool */,
+				A16554081E48929900F0FCA6 /* BTToolTests */,
+				A16554131E48929900F0FCA6 /* BTToolUITests */,
+				A16553F21E48929900F0FCA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A16553F21E48929900F0FCA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A16553F11E48929900F0FCA6 /* BTTool.app */,
+				A16554051E48929900F0FCA6 /* BTToolTests.xctest */,
+				A16554101E48929900F0FCA6 /* BTToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A16553F31E48929900F0FCA6 /* BTTool */ = {
+			isa = PBXGroup;
+			children = (
+				A16553F41E48929900F0FCA6 /* AppDelegate.swift */,
+				A16553F61E48929900F0FCA6 /* ViewController.swift */,
+				A16553F81E48929900F0FCA6 /* Main.storyboard */,
+				A16553FB1E48929900F0FCA6 /* Assets.xcassets */,
+				A16553FD1E48929900F0FCA6 /* LaunchScreen.storyboard */,
+				A16554001E48929900F0FCA6 /* Info.plist */,
+			);
+			path = BTTool;
+			sourceTree = "<group>";
+		};
+		A16554081E48929900F0FCA6 /* BTToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				A16554091E48929900F0FCA6 /* BTToolTests.swift */,
+				A165540B1E48929900F0FCA6 /* Info.plist */,
+			);
+			path = BTToolTests;
+			sourceTree = "<group>";
+		};
+		A16554131E48929900F0FCA6 /* BTToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A16554141E48929900F0FCA6 /* BTToolUITests.swift */,
+				A16554161E48929900F0FCA6 /* Info.plist */,
+			);
+			path = BTToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A16553F01E48929800F0FCA6 /* BTTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16554191E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTTool" */;
+			buildPhases = (
+				A16553ED1E48929800F0FCA6 /* Sources */,
+				A16553EE1E48929800F0FCA6 /* Frameworks */,
+				A16553EF1E48929800F0FCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTTool;
+			productName = BTTool;
+			productReference = A16553F11E48929900F0FCA6 /* BTTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A16554041E48929900F0FCA6 /* BTToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A165541C1E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTToolTests" */;
+			buildPhases = (
+				A16554011E48929900F0FCA6 /* Sources */,
+				A16554021E48929900F0FCA6 /* Frameworks */,
+				A16554031E48929900F0FCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A16554071E48929900F0FCA6 /* PBXTargetDependency */,
+			);
+			name = BTToolTests;
+			productName = BTToolTests;
+			productReference = A16554051E48929900F0FCA6 /* BTToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A165540F1E48929900F0FCA6 /* BTToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A165541F1E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTToolUITests" */;
+			buildPhases = (
+				A165540C1E48929900F0FCA6 /* Sources */,
+				A165540D1E48929900F0FCA6 /* Frameworks */,
+				A165540E1E48929900F0FCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A16554121E48929900F0FCA6 /* PBXTargetDependency */,
+			);
+			name = BTToolUITests;
+			productName = BTToolUITests;
+			productReference = A16554101E48929900F0FCA6 /* BTToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A16553E91E48929800F0FCA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王子胜";
+				TargetAttributes = {
+					A16553F01E48929800F0FCA6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GBCQU3WJHA;
+						ProvisioningStyle = Automatic;
+					};
+					A16554041E48929900F0FCA6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GBCQU3WJHA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A16553F01E48929800F0FCA6;
+					};
+					A165540F1E48929900F0FCA6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GBCQU3WJHA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A16553F01E48929800F0FCA6;
+					};
+				};
+			};
+			buildConfigurationList = A16553EC1E48929800F0FCA6 /* Build configuration list for PBXProject "BTTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A16553E81E48929800F0FCA6;
+			productRefGroup = A16553F21E48929900F0FCA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A16553F01E48929800F0FCA6 /* BTTool */,
+				A16554041E48929900F0FCA6 /* BTToolTests */,
+				A165540F1E48929900F0FCA6 /* BTToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A16553EF1E48929800F0FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16553FF1E48929900F0FCA6 /* LaunchScreen.storyboard in Resources */,
+				A16553FC1E48929900F0FCA6 /* Assets.xcassets in Resources */,
+				A16553FA1E48929900F0FCA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16554031E48929900F0FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A165540E1E48929900F0FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A16553ED1E48929800F0FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16553F71E48929900F0FCA6 /* ViewController.swift in Sources */,
+				A16553F51E48929900F0FCA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16554011E48929900F0FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A165540A1E48929900F0FCA6 /* BTToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A165540C1E48929900F0FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16554151E48929900F0FCA6 /* BTToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A16554071E48929900F0FCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A16553F01E48929800F0FCA6 /* BTTool */;
+			targetProxy = A16554061E48929900F0FCA6 /* PBXContainerItemProxy */;
+		};
+		A16554121E48929900F0FCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A16553F01E48929800F0FCA6 /* BTTool */;
+			targetProxy = A16554111E48929900F0FCA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A16553F81E48929900F0FCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A16553F91E48929900F0FCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A16553FD1E48929900F0FCA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A16553FE1E48929900F0FCA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A16554171E48929900F0FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A16554181E48929900F0FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A165541A1E48929900F0FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A165541B1E48929900F0FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A165541D1E48929900F0FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTTool.app/BTTool";
+			};
+			name = Debug;
+		};
+		A165541E1E48929900F0FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTTool.app/BTTool";
+			};
+			name = Release;
+		};
+		A16554201E48929900F0FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTTool;
+			};
+			name = Debug;
+		};
+		A16554211E48929900F0FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GBCQU3WJHA;
+				INFOPLIST_FILE = BTToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.BTToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A16553EC1E48929800F0FCA6 /* Build configuration list for PBXProject "BTTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16554171E48929900F0FCA6 /* Debug */,
+				A16554181E48929900F0FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16554191E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A165541A1E48929900F0FCA6 /* Debug */,
+				A165541B1E48929900F0FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A165541C1E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A165541D1E48929900F0FCA6 /* Debug */,
+				A165541E1E48929900F0FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A165541F1E48929900F0FCA6 /* Build configuration list for PBXNativeTarget "BTToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16554201E48929900F0FCA6 /* Debug */,
+				A16554211E48929900F0FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A16553E91E48929800F0FCA6 /* Project object */;
+}
